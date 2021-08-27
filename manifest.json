@@ -1,0 +1,18 @@
+{
+  "vendor": "hiringcoders202106",
+  "name": "form-leads",
+  "version": "0.0.1",
+  "title": "Register Leads",
+  "description": "Register Leads component",
+  "defaultLocale": "pt-BR",
+  "builders": {
+    "messages": "1.x",
+    "store": "0.x",
+    "react": "3.x"
+  },
+  "dependencies": {
+    "vtex.styleguide": "9.x",
+    "vtex.css-handles": "0.x"
+  },
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}
