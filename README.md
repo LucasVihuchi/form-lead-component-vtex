@@ -8,9 +8,9 @@ Formulário de cadastro contendo os campos *nome, email, telefone*, e um registr
 ## Como usar
 
 * Clonar esse repositório
-* Linkar em sua conta VTEX
 * No arquivo ***manifest.json*** da sua loja inserir a dependência ***"hiringcoders202106.form-leads": "0.x"***
 * Usar o bloco ***form-leads*** em qualquer lugar da sua loja
+* Linkar em sua conta VTEX
 
 ## Como estilizar
 
