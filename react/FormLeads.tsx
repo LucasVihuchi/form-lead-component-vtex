@@ -71,17 +71,17 @@ const FormLeads: StorefrontFunctionComponent<FormLeadProps> = ({ textButton }: F
 
             <div className={`${handles.leadInputContainer}`}>
               <label className={`${handles.leadInputLabel}`} htmlFor="lead-name">Nome</label>
-              <input type="text" name="name" id="lead-name" onChange={getName} className={`${handles.leadInput}`} placeholder="Nome" />
+              <input required type="text" name="name" id="lead-name" onChange={getName} className={`${handles.leadInput}`} placeholder="Nome" />
             </div>
 
             <div className={`${handles.leadInputContainer}`}>
               <label className={`${handles.leadInputLabel}`} htmlFor="lead-email">Email</label>
-              <input type="text" name="email" id="lead-email" onChange={getEmail} className={`${handles.leadInput}`} placeholder="Email" />
+              <input required type="text" name="email" id="lead-email" onChange={getEmail} className={`${handles.leadInput}`} placeholder="Email" />
             </div>
 
             <div className={`${handles.leadInputContainer}`}>
               <label className={`${handles.leadInputLabel}`} htmlFor="lead-phone">Telefone</label>
-              <input type="text" name="phone" id="lead-phone" onChange={getPhone} className={`${handles.leadInput}`} placeholder="Telefone" />
+              <input required type="text" name="phone" id="lead-phone" onChange={getPhone} className={`${handles.leadInput}`} placeholder="Telefone" />
             </div>
 
             <div className={`${handles.leadButtonContainer}`}>
