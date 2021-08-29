@@ -20,6 +20,7 @@ Formulário de cadastro contendo os campos *nome, email, telefone*, e um registr
 
 * leadFormContainer
 * leadForm
+* leadFormTitle
 * leadInputContainer
 * leadInputLabel
 * leadInput

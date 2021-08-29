@@ -10,6 +10,7 @@ interface FormLeadProps {
 
 const CSS_HANDLES = [
   'leadForm',
+  'leadFormTitle',
   'leadInput',
   'leadPhone',
   'leadButton',
@@ -65,6 +66,7 @@ const FormLeads: StorefrontFunctionComponent<FormLeadProps> = ({ textButton }: F
         (<div className={`${handles.leadSuccessMsg}`}>Usuário cadastrado com sucesso!</div>)
         :
         <div className={`${handles.leadFormContainer}`}>
+          {!registered ? <div className={`${handles.leadFormTitle}`}>Cadastre-se para receber mais informações</div> : ''}
           <form className={`${handles.leadForm}`} onSubmit={registerLeads}>
 
             <div className={`${handles.leadInputContainer}`}>
