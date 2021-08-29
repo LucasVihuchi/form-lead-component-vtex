@@ -46,15 +46,15 @@ const FormLeads: StorefrontFunctionComponent<FormLeadProps> = ({ textButton }: F
     })
   }
 
-  function guardaNome(e: any) {
+  function getName(e: any) {
     const value = e.target.value
     setName(value)
   }
-  function guardaEmail(e: any) {
+  function getEmail(e: any) {
     const value = e.target.value
     setEmail(value)
   }
-  function guardaPhone(e: any) {
+  function getPhone(e: any) {
     const value = e.target.value
     setPhone(value)
   }
@@ -69,17 +69,17 @@ const FormLeads: StorefrontFunctionComponent<FormLeadProps> = ({ textButton }: F
 
             <div className={`${handles.leadInputContainer}`}>
               <label className={`${handles.leadInputLabel}`} htmlFor="lead-name">Nome</label>
-              <input type="text" name="name" id="lead-name" onChange={guardaNome} className={`${handles.leadInput}`} placeholder="Nome" />
+              <input type="text" name="name" id="lead-name" onChange={getName} className={`${handles.leadInput}`} placeholder="Nome" />
             </div>
 
             <div className={`${handles.leadInputContainer}`}>
               <label className={`${handles.leadInputLabel}`} htmlFor="lead-email">Email</label>
-              <input type="text" name="email" id="lead-email" onChange={guardaEmail} className={`${handles.leadInput}`} placeholder="Email" />
+              <input type="text" name="email" id="lead-email" onChange={getEmail} className={`${handles.leadInput}`} placeholder="Email" />
             </div>
 
             <div className={`${handles.leadInputContainer}`}>
               <label className={`${handles.leadInputLabel}`} htmlFor="lead-phone">Telefone</label>
-              <input type="text" name="phone" id="lead-phone" onChange={guardaPhone} className={`${handles.leadInput}`} placeholder="Telefone" />
+              <input type="text" name="phone" id="lead-phone" onChange={getPhone} className={`${handles.leadInput}`} placeholder="Telefone" />
             </div>
 
             <div className={`${handles.leadButtonContainer}`}>
