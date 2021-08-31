@@ -42,7 +42,7 @@ const FormLeads: StorefrontFunctionComponent<FormLeadProps> = ({ textButton }: F
       "type": "prospect"
     }
 
-    api.put("/items", dados).then(() => {
+    api.put("/leads", dados).then(() => {
       setRegistered(true)
     })
   }
